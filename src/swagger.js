@@ -7,7 +7,7 @@ const options = {
     openapi: "3.0.0",
     info: { title: "API de Amiibos", version: "1.0.0" },
   },
-  apis: ["../backend/routes/users.js", "../backend/routes/amiibo.js"],
+  apis: ["./routes/users.js", "./routes/amiibo.js"],
 };
 
 // Docs in JSON format
