@@ -5,7 +5,6 @@ usersCtrl.createUser = async (req, res) =>{
     const {name, telefono, nickname, password} = req.body;
     const newUser = new User({
         name: name,
-        telefono: telefono,
         nickname: nickname,
         password: password
     })
